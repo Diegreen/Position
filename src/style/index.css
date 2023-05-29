@@ -1,0 +1,36 @@
+.home-header {
+    background-color: #212529;
+    height: 140vh;
+}
+
+.blog-section {
+    padding: 48px 0;
+}
+
+.blog-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-section__newsletter {
+    height: 300px;
+    width: 30%;
+    background-color: #ced4da;
+    border-radius: 8px;
+    position: sticky;
+    top: 100px;
+}
+
+.blog-section__posts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 65%;
+}
+
+.blog-section__post {
+    height: 100px;
+    background-color: #ced4da;
+    border-radius: 8px;
+}
+
